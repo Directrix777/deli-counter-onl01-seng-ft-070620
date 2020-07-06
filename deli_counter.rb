@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(spots)
-  if spots.size = 0
+  if spots.size == 0
     return "The line is empty."
   end
   counter = 1
