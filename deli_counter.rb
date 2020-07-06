@@ -11,5 +11,5 @@ def line(spots)
     line += " #{counter}. #{spots[counter - 1]}"
     counter += 1
   end
-  line
+  puts line
 end
