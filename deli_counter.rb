@@ -5,7 +5,7 @@ def line(spots)
     return "The line is empty."
   end
   counter = 1
-  while counter != spots.size
-  end
+  #while counter != spots.size
+  #end
 
 end
