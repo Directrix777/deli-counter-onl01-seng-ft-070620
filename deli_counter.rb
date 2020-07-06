@@ -16,7 +16,7 @@ end
 
 def take_a_number(spots, name)
   spots.push(name)
-  
+  puts "Welcome, #{name}. You are number #{spots.size} in line."
 end
 
 def now_serving(spots)
