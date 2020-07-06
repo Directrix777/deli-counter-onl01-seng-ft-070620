@@ -15,7 +15,7 @@ def line(spots)
 end
 
 def take_a_number(spots, name)
-
+  spots.push(name)
 end
 
 def now_serving(spots)
