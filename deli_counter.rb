@@ -5,10 +5,10 @@ def line(spots)
     puts "The line is currently empty."
     return
   end
-  counter = 1
+  counter = 0
   line = "The line is curently:"
   while counter != spots.size
-    line += " #{counter}. #{spots[counter - 1]}"
+    line += " #{counter + 1}. #{spots[counter]}"
     counter += 1
   end
   puts line
