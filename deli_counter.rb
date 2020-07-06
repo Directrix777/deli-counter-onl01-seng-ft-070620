@@ -14,10 +14,10 @@ def line(spots)
   puts line
 end
 
-def take_a_number
+def take_a_number(spots, name)
 
 end
 
-def now_serving
+def now_serving(spots)
 
 end
