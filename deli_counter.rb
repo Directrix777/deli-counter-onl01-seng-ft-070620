@@ -6,7 +6,7 @@ def line(spots)
     return
   end
   counter = 0
-  line = "The line is curently:"
+  line = "The line is currently:"
   while counter != spots.size
     line += " #{counter + 1}. #{spots[counter]}"
     counter += 1
