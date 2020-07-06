@@ -24,5 +24,5 @@ def now_serving(spots)
     puts "There is nobody waiting to be served!"
     return
   end
-  puts "Curently serving #{spots.shift}"
+  puts "Currently serving #{spots.shift}"
 end
