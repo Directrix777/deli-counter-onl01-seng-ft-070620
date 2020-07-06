@@ -20,5 +20,9 @@ def take_a_number(spots, name)
 end
 
 def now_serving(spots)
-
+  if spots.size == 0
+    puts "There is nobody waiting to be served!"
+    return
+  end
+  spots.shift
 end
