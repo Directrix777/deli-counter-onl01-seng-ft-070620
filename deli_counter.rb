@@ -3,6 +3,7 @@
 def line(spots)
   if spots.size == 0
     puts "The line is currently empty."
+    return
   end
   counter = 1
   line = "The line is curently:"
